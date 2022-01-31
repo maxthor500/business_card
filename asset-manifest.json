@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/business_card/static/css/main.7c905a40.css",
+    "main.js": "/business_card/static/js/main.69badc2a.js",
+    "static/media/Cartoonizer_Arcane.jpeg": "/business_card/static/media/Cartoonizer_Arcane.7d57e71660c4c2bbfa12.jpeg",
+    "index.html": "/business_card/index.html",
+    "main.7c905a40.css.map": "/business_card/static/css/main.7c905a40.css.map",
+    "main.69badc2a.js.map": "/business_card/static/js/main.69badc2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c905a40.css",
+    "static/js/main.69badc2a.js"
+  ]
+}
