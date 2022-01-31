@@ -5,14 +5,17 @@
     background-color: #23252C;
 }
 
+/* center the card */
 #root {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
+/* card style */
 .card {
     display: flex;
     flex-direction: column;
@@ -23,25 +26,74 @@
 .card-img-top {
     width: 18rem;
     border-radius: 1.6rem 1.6rem 0 0;
-    margin: 0;
 }
 
 .card-body {
+    padding: 1rem;
+}
+
+.card-body, .card-body > *, .container > * {
     background-color: #1A1B21;
-    color: #fff;
-    height: 25rem;
+    color:#fff
 }
 
 .card-title {
-    padding-top: 1rem;
     background-color: inherit;
-    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1.6rem;
     line-height: 1.8rem;
 }
 
+.card-text {
+    color: #F3BF99;
+    font-weight: 400;
+    padding: .5rem;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.btn {
+    padding: .5rem;
+    width: 7.2rem;
+    border-radius: .5rem;
+    font-weight: normal;
+}
+
+.btn > i {
+    margin-right: .2rem;
+}
+
+.btn-email, .btn-email > * {
+    background-color: white;
+    color: black;
+}
+
+.btn-in, .btn-in > * {
+    background-color: #5093E2;
+}
+
+.container {
+    padding: .6rem;
+}
+
+.div-title {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: .3rem;
+}
+
+.div-text {
+    color: #DCDCDC;
+    font-size: .8rem;
+    text-align: left;
+}
+
+/* card footer */
 footer {
     display: flex;
     height: 4rem;
@@ -51,12 +103,12 @@ footer {
     justify-content: center;
 }
 
-footer > a {
+a {
     color: inherit;
     text-decoration: none;
 }
 
-.fab {
+footer > a > .fab {
     background-color: #161619;
     font-size: 1.6rem;
     padding: 1rem;
